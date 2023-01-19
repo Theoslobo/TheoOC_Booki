@@ -1,0 +1,67 @@
+/*PAGE DE STYLE CSS*/
+
+html 
+{
+    font-family: 'Roboto', sans-serif , '-apple-system','BlinkMacSystemFont',"Segoe UI","Helvetica Neue",Arial,"Noto Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; /*POLICE DE LA PAGE*/
+	width:100%; /*LARGEUR POUR QU'IL Y AIT DE LA PLACE POUR LES PUBS SUR LE COTE*/
+}  
+
+#caracteristiques_page
+{
+	margin: 0px 0px 0px 50px;
+}
+
+
+
+/* 
+-----------------------------
+HEADER 
+-----------------------------
+*/
+
+#header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 110px;
+}
+
+#logo img
+{
+    position: absolute;
+    top: 44.5px;
+    width: 63px;
+    height: 21px;
+}
+
+
+#menu_nav ul
+{
+    display: flex;
+    width: 375px;
+    height: 100px;
+}
+
+#menu_nav li
+{
+    list-style-type: none;
+    width: 50%;
+    text-align: center;
+    padding-top: 41px;
+    cursor: pointer;
+}
+
+#menu_nav a
+{
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 1px;
+}
+
+#menu_nav li:hover
+{
+    color: #0065FC;
+    border-top: 4px #0065FC solid;
+}
