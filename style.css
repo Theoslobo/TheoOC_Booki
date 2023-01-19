@@ -143,3 +143,55 @@ SECTION
 {
     cursor: pointer;
 }
+
+#titre_filtres
+{
+    margin-top: 35px;
+    margin-right: -50px;
+}
+
+#block_filtres
+{
+    display: flex;
+}
+
+#nav_filtres ul
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#nav_filtres li
+{
+    list-style-type: none;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.liens_filtres
+{
+    border: 2px #d9d9d9 solid; 
+    padding: 10px 15px 10px 15px;
+    border-radius: 30px;
+}
+
+#nav_filtres a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-solid
+{
+    margin-right: 10px;
+    color: #0065FC;
+}
+
+.liens_filtres:hover
+{
+    background-color: #deebff;
+}
+
+.fa-info/***********************/
+{
+}
