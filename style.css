@@ -528,3 +528,46 @@ a
     object-fit: cover;
 }
 
+
+
+
+/* 
+-----------------------------
+FOOTER 
+-----------------------------
+*/
+
+
+#footer 
+{
+    display: flex;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    padding-left: 30px;
+    height: 215px;
+    padding-top: 40px;
+}
+
+#footer a
+{
+    list-style-type: none;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#footer li
+{
+    font-size: 1.0em;
+    margin-bottom: 10px;
+}
+
+#footer h4
+{
+    font-size: 1.2em;
+}
+
+.titre_footer
+{
+    margin-right: 15%;
+}
+
