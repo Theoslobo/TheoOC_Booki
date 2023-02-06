@@ -778,3 +778,369 @@ RESPONSIVE : TABLETTE
 
 }
 
+
+
+
+/***************************************************************/
+
+
+@media screen and (max-width: 768px) 
+{
+
+    #caracteristiques_page
+    {
+        margin: 0;
+    }
+   
+    /*****************************
+    HEADER
+    *****************************/
+
+
+    
+    #header 
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 110px;
+    }
+
+    #logo img
+    {
+        width: 63px;
+        height: 21px;
+        margin: 15px 0 0 0;
+    }
+
+    #menu_nav ul 
+    {
+        display: flex;
+        justify-content: center;
+        margin: -10px 0 0 0;
+        padding: 0;
+    }
+
+    #menu_nav li 
+    {
+        padding-top: 55px;
+        border-bottom: 3px #F2F2F2 solid;
+        height: 40px;
+        width: 50%;
+    }
+
+    #menu_nav li:hover
+    {
+        border-bottom: 3px #0065FC solid;
+        border-top: none;
+        padding-top: 55px;
+    }
+
+
+
+/*****************************
+SECTION
+*****************************/
+
+
+#section
+{
+    padding-top: 20px;
+}
+
+#section h1
+{
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+
+#section p 
+{
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+#barre_de_recherche
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.form_recherche
+{
+    display: flex;
+    width: 100%;
+}
+
+#logo_localisation
+{
+    height: 45.55px;
+}
+
+#logo_localisation i
+{
+    font-size: 1.0em;
+}
+
+#recherche
+{
+    width: 80%;
+    height: 47px;
+}
+
+#bouton_recherche
+{
+    display: none;
+}
+
+.bouton_recherche_loupe
+{
+    display: block;
+    width: 18%;
+    height: 47px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0 13px 13px 0;
+    border: 1px #0065FC solid;
+}
+
+.bouton_recherche_loupe i
+{
+    margin-right: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.bouton_recherche_loupe:hover
+{
+    cursor: pointer;
+}
+
+
+#block_filtres
+{
+    flex-direction: column;
+    margin: 0 20px 0 20px;
+}
+
+#block_filtres p
+{
+    margin: -4px;
+}
+
+#para_famille p
+{
+    margin-left: 4px;
+}
+
+#icon_person i
+{
+    font-size: 2.1em;
+}
+
+#nav_filtres ul
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#nav_filtres
+{
+    margin-left: -55px;
+    margin-top: -30px;
+}
+
+#nav_filtres a
+{
+    font-size: 0.7em;
+}
+
+
+#nav_filtres li
+{
+    margin-left: 10px;
+}
+
+.liens_filtres i 
+{
+    font-size: 1.8em;
+}
+
+.liens_filtres 
+{
+    padding: 0 0 0 12px;
+}
+
+.info i 
+{
+    margin-left: 10px;
+    margin-right: 0;
+    width: 28px;
+    height: 22px;
+}
+
+#texte_info span
+{
+
+    font-size: 1em;
+}
+
+
+
+
+
+#un 
+{
+    flex-direction: column-reverse;
+}
+
+#les_plus_populaires 
+{
+    border-radius: 0;
+    height: 626px;
+    width: 100%;
+    margin-left: -8px;
+}
+
+#lpp
+{
+    flex-direction: column;
+}
+
+.etiquette_populaires 
+{
+    width: 94%;
+    margin-left: 4px;
+}
+
+#titre_populaires h2
+{
+    margin-left: 9px;
+}
+
+#titre_hebergements_marseille
+{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+
+.titre_etiquette_hebergement
+{
+    font-size: 1em;
+    margin-left: 10px; 
+}
+
+.titre_etiquette
+{
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+
+.liens_pop 
+{
+    width: 100%;
+}
+
+
+#hebergements_marseille
+{
+    background-color: white;
+    border: none;
+    height: auto;
+    margin-bottom: -40px;
+}
+
+.caracteristique_eti_haut
+{
+    flex-direction: column;
+    padding-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.caracteristique_eti_bas
+{
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.liens_hebergements
+{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#lien_afficher_plus
+{
+    display: none;
+}
+
+
+
+#titre_activites h2 
+{
+    margin-left: 5px;
+}
+
+#activites_marseille 
+{
+    margin: 0 20px 0 20px;
+}
+
+#caracteristiques_carte_activites 
+{
+    flex-direction: column;
+}   
+
+#caracteristiques_carte_activites a 
+{
+    width: 100%;
+}
+
+.carte_activites
+{
+    height: 190px;
+    margin-bottom: 20px;
+}
+
+.texte_carte h3
+{
+    font-size: 1.1em;
+}
+
+.carte_activites img 
+{
+    height: 134px;
+}
+
+
+
+
+
+
+#footer
+{
+    flex-direction: column;
+    height: auto;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+#footer li
+{
+    font-size: 1em;
+}
+
+#footer h4
+{
+    font-size: 1.3em;
+}
+
+
+}
