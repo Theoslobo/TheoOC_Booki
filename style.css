@@ -471,3 +471,60 @@ a
 {
     width: 41%;
 }
+
+
+
+
+
+#activites_marseille
+{
+    margin-top: 70px;
+}
+
+#titre_activites h2
+{
+    margin-top: 55px;
+    font-size: 1.4em;
+}
+
+#caracteristiques_carte_activites
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#caracteristiques_carte_activites a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    width: 23%;
+}
+
+.texte_carte h3
+{
+    margin: 0 0 0 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.carte_activites
+{
+    border: 0px white solid;
+    border-radius: 25px;
+    box-shadow: 1px 4px 10px #d9d9d9;
+    width: 100%;
+    height: 445px;
+}
+
+.carte_activites img
+{
+    border-radius: 25px 25px 0 0;
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+}
+
