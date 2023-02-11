@@ -3,6 +3,7 @@
 html 
 {
 	width:100%; /*LARGEUR POUR QU'IL Y AIT DE LA PLACE POUR LES PUBS SUR LE COTE*/
+    overflow-x: hidden;
 }  
 
 #caracteristiques_page
@@ -163,21 +164,69 @@ SECTION
     cursor: pointer;
 }
 
+
+
 #titre_filtres
 {
-    margin-top: 35px;
-    margin-right: -40px;
+    padding-right: 40px;
 }
 
 #block_filtres
 {
+    margin-top: 25px;
     display: flex;
+    align-items: center;
 }
 
 #block_filtres i
 {
     margin-right: 10px;
 }
+
+#categories_filtres
+{
+    display: flex;
+}
+
+.filtres_element
+{
+    border: 2px #d9d9d9 solid;
+    border-radius: 30px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px 0 15px;
+    margin-right: 40px;
+}
+
+.filtre_animaux
+{
+    margin: 0;
+}
+
+.filtres_element:hover
+{
+    background-color: #deebff;
+}
+
+#categories_filtres a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.filtres_element i 
+{
+    font-size: 1.3em;
+}
+
+.fa-solid
+{
+    color: #0065FC;
+}
+
+
 
 #nav_filtres ul
 {
@@ -214,15 +263,17 @@ SECTION
     font-size: 1.3em;
 }
 
-.fa-solid
-{
-    color: #0065FC;
-}
+
 
 .liens_filtres:hover
 {
     background-color: #deebff;
 }
+
+
+
+
+
 
 .info
 {
@@ -247,8 +298,8 @@ SECTION
     font-size: 0.7em;
     border: 1px #d9d9d9 solid;
     border-radius: 50%;
-    width: 24px;
-    height: 24px;
+    min-width: 22px;
+    height: 22px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,10 +380,10 @@ a
 
 .titre_etiquette_hebergement
 {
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: bold;
     color: black;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;    
 }
 
@@ -340,7 +391,7 @@ a
 {
     font-size: 0.9em;
     color: black;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: -12px;
 }
 
@@ -349,7 +400,7 @@ a
     font-size: 1.1em;
     font-weight: bold;
     color: black;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 5px;    
 }
 
@@ -357,7 +408,7 @@ a
 {
     font-size: 0.9em;
     color: black;
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: -12px;
 }
 
@@ -375,7 +426,7 @@ a
 
 .etoiles_etiquette
 {
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: auto;
 }
 
@@ -443,7 +494,7 @@ a
 
 .textes_populaires 
 {
-    width: 50%;
+    width: 61%;
     display: flex;
     flex-direction: column;
 }
@@ -484,6 +535,7 @@ a
 #titre_activites h2
 {
     margin-top: 55px;
+    margin-bottom: 20px;
     font-size: 1.4em;
 }
 
@@ -499,12 +551,13 @@ a
     color: black;
     font-weight: bold;
     width: 23%;
+    word-break: break-word;
 }
 
 .texte_carte h3
 {
     margin: 0 0 0 20px;
-    width: 100%;
+    width: 85%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -582,7 +635,7 @@ RESPONSIVE : TABLETTE
 
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
     #caracteristiques_page
     {
         margin: 0px 50px 0px 50px;
@@ -603,7 +656,7 @@ RESPONSIVE : TABLETTE
         font-size: 1.3em;
     }
 
-    #nav_filtres li 
+    #categories_filtres li 
     {
         margin-left: 30px;
     }
@@ -611,7 +664,12 @@ RESPONSIVE : TABLETTE
 
     #titre_filtres 
     {
-        margin-right: -55px;
+        padding-right: 15px;
+    }
+
+    .filtres_element 
+    {
+        margin-right: 20px;
     }
     
 
@@ -704,6 +762,7 @@ RESPONSIVE : TABLETTE
 /****************************************************************/
 
 
+
 @media screen and (max-width: 954px) 
 {
 
@@ -714,12 +773,20 @@ RESPONSIVE : TABLETTE
 #block_filtres
 {
     flex-direction: column;
-    margin: 0 20px 0 20px;
+    margin: 10px 0 0 15px;
+    display: flex;
+    align-items: normal;
 }
 
 #block_filtres p
 {
     margin: -4px;
+}
+
+#titre_filtres 
+{
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 #para_famille p
@@ -732,35 +799,25 @@ RESPONSIVE : TABLETTE
     font-size: 2.1em;
 }
 
-#nav_filtres ul
+#categories_filtres
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-#nav_filtres
+#categories_filtres a
 {
-    margin-left: -55px;
-    margin-top: -30px;
+    font-size: 0.7em;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 
-#nav_filtres a
-{
-    font-size: 0.8em;
-}
-
-
-#nav_filtres li
-{
-    margin-left: 10px;
-}
-
-.liens_filtres i 
+.filtres_element i
 {
     font-size: 1.8em;
 }
 
-.liens_filtres 
+.filtres_element
 {
     padding: 0 0 0 12px;
 }
@@ -826,7 +883,7 @@ RESPONSIVE : TABLETTE
         padding-top: 55px;
         border-bottom: 3px #F2F2F2 solid;
         height: 40px;
-        width: 50%;
+        width: 48%;
     }
 
     #menu_nav li:hover
@@ -921,12 +978,20 @@ SECTION
 #block_filtres
 {
     flex-direction: column;
-    margin: 0 20px 0 20px;
+    margin: 10px 0 0 15px;
+    display: flex;
+    align-items: normal;
 }
 
 #block_filtres p
 {
     margin: -4px;
+}
+
+#titre_filtres 
+{
+    margin-left: 0;
+    margin-bottom: 0;
 }
 
 #para_famille p
@@ -939,45 +1004,34 @@ SECTION
     font-size: 2.1em;
 }
 
-#nav_filtres ul
+#categories_filtres
 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-#nav_filtres
-{
-    margin-left: -55px;
-    margin-top: -30px;
-}
-
-#nav_filtres a
+#categories_filtres a
 {
     font-size: 0.7em;
+    margin-right: 15px;
+    margin-top: 15px;
 }
 
-
-#nav_filtres li
-{
-    margin-left: 10px;
-}
-
-.liens_filtres i 
+.filtres_element i
 {
     font-size: 1.8em;
 }
 
-.liens_filtres 
+.filtres_element
 {
     padding: 0 0 0 12px;
 }
 
+
+
 .info i 
 {
-    margin-left: 10px;
-    margin-right: 0;
-    width: 28px;
-    height: 22px;
+
 }
 
 #texte_info span
@@ -1049,6 +1103,7 @@ SECTION
     border: none;
     height: auto;
     margin-bottom: -40px;
+    width: 98%;
 }
 
 .caracteristique_eti_haut
@@ -1140,6 +1195,20 @@ SECTION
 #footer h4
 {
     font-size: 1.3em;
+}
+
+
+}
+
+
+@media screen and (max-width: 487.5px) 
+{
+
+
+#placement_i
+{
+position: relative;
+top: -10px;
 }
 
 

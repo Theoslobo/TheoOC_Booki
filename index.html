@@ -17,14 +17,14 @@
             <header id="header"> <!-- EN-TETE -->
 
                 <div id="logo"> <!-- LOGO -->
-                    <a href="#2"><img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\logo\Booki.png" alt="logo du site"></a>
+                    <a href="#2"><img src="..\Images+Booki\Images Booki\logo\Booki.png" alt="logo du site"></a>
                 </div>
 
                 <div id="menu_nav"> <!-- MENU DE NAVIGATION -->
                     <nav>
                         <ul> <!-- LISTE A PUCE -->
-                            <li><a href="#1">Hébergements</a></li>
-                            <li><a href="#2">Activités</a></li>
+                            <li><a href="#hebergements_marseille">Hébergements</a></li>
+                            <li><a href="#activites_marseille">Activités</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -49,30 +49,32 @@
 
                 <div id="block_filtres">
                     <h3 id="titre_filtres">Filtres</h3>
-                    <nav id="nav_filtres">
-                        <ul>
-                            <a class="filtres_haut_mob" href="#200">
-                                <li class="liens_filtres">
-                                    <i class="fa-solid fa-money-bill-wave"></i>
-                                    <p>Économique</p>
-                                </li>
-                            </a>
-                            <a class="filtres_haut_mob" href="#200">
-                                <li class="liens_filtres" id="icon_person">
-                                    <i class="fa-solid fa-person"></i>
-                                    <div id="para_famille">
-                                        <p>Familial</p>
-                                    </div>
-                                </li>
-                            </a>
-                            <a class="filtres_bas_mob" href="#200"><li class="liens_filtres"><i class="fa-solid fa-heart"></i><p>Romantique</p></li></a>
-                            <a class="filtres_bas_mob" href="#200"><li class="liens_filtres"><i class="fa-solid fa-dog"></i><p>Animaux autorisés</p></li></a>
-                        </ul>
-                    </nav>
+                    <div id="categories_filtres">
+                        <a class="filtres_element" href="#200">
+                            <i class="fa-solid fa-money-bill-wave"></i>
+                            <p>Économique</p>
+                        </a>
+                        <a class="filtres_element" href="#200">
+                            <i class="fa-solid fa-person"></i>
+                            <div id="para_famille">
+                                <p>Familial</p>
+                            </div>
+                        </a>
+                        <a class="filtres_element" href="#200">
+                            <i class="fa-solid fa-heart"></i>
+                            <p>Romantique</p>
+                        </a>
+                        <a class="filtres_element filtre_animaux" href="#200">
+                            <i class="fa-solid fa-dog"></i>
+                            <p>Animaux autorisés</p>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="info">
-                    <i class="fa-solid fa-info"></i>
+                    <div id="placement_i">
+                        <i class="fa-solid fa-info"></i>
+                    </div>
                     <div  id="texte_info">
                         <span>Plus de 500 logements sont disponibles dans cette ville</span><br>
                     </div>
@@ -85,7 +87,7 @@
                         <div class="caracteristique_eti_haut">
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Cannebière">
                                     <h3 class="titre_etiquette_hebergement">Auberge La Canebière</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 25<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -95,7 +97,7 @@
                             </a>
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                                     <h3 class="titre_etiquette_hebergement">Hôtel du port</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 52<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -105,7 +107,7 @@
                             </a>
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les mouettes">
                                     <h3 class="titre_etiquette_hebergement">Hôtel Les mouettes</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 76<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -117,7 +119,7 @@
                         <div class="caracteristique_eti_bas">
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Auberge de la mer">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Auberge de la mer">
                                     <h3 class="titre_etiquette_hebergement">Hôtel de la mer</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 46<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -127,7 +129,7 @@
                             </a>
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hôtel Le Panier">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Hôtel Le Panier">
                                     <h3 class="titre_etiquette_hebergement">Auberge Le Panier</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 23<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -137,7 +139,7 @@
                             </a>
                             <a class="liens_hebergements" href="#300">
                                 <div class="offres_hebergements">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
                                     <h3 class="titre_etiquette_hebergement">Hôtel Chez Amina</h3>
                                     <p class="offre_etiquette_hebergement">Nuit à partir de 96<strong>€</strong></p>
                                     <div class="etoiles_etiquette">
@@ -164,7 +166,7 @@
                         <a class="liens_pop" href="#10">
                             <div class="etiquette_populaires">
                                 <div class="image_populaires">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
                                 </div>
                                 <div class="textes_populaires">
                                     <h3 class="titre_etiquette">Hôtel Le soleil du matin</h3>
@@ -179,7 +181,7 @@
                         <a class="liens_pop" href="#10">
                             <div class="etiquette_populaires">
                                 <div class="image_populaires" id="image_carte_deux">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre d'hôte au cœur de l'eau">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Chambre d'hôte au cœur de l'eau">
                                 </div>
                                 <div class="textes_populaires">
                                     <h3 class="titre_etiquette">Chambre d'hôtes Au cœur de l'eau</h3>
@@ -194,7 +196,7 @@
                         <a class="liens_pop" href="#10">
                             <div class="etiquette_populaires">
                                 <div class="image_populaires">
-                                    <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Bleu et Blanc">
+                                    <img src="..\Images+Booki\Images Booki\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel Bleu et Blanc">
                                 </div>
                                 <div class="textes_populaires">
                                     <h3 class="titre_etiquette">Hôtel Bleu et Blanc</h3>
@@ -217,7 +219,7 @@
                     <div id="caracteristiques_carte_activites">
                         <a href="#11">
                             <div class="carte_activites">
-                                <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
+                                <img src="..\Images+Booki\Images Booki\activites\3_medium\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
                                 <div class="texte_carte">
                                     <h3>Vieux-Port</h3>
                                 </div>
@@ -226,7 +228,7 @@
 
                         <a href="#11">
                             <div class="carte_activites">
-                                <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
+                                <img src="..\Images+Booki\Images Booki\activites\3_medium\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
                                 <div class="texte_carte">
                                     <h3>Fort de Pomègues</h3>
                                 </div>
@@ -235,7 +237,7 @@
 
                         <a href="#11">
                             <div class="carte_activites">
-                                <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
+                                <img src="..\Images+Booki\Images Booki\activites\3_medium\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
                                 <div class="texte_carte">
                                     <h3>Parc national des Calanques</h3>
                                 </div>
@@ -244,7 +246,7 @@
 
                         <a href="#11">
                             <div class="carte_activites">
-                                <img src="C:\Users\Slobodinski\Documents\Formation\Projet_2\Images+Booki\Images Booki\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
+                                <img src="..\Images+Booki\Images Booki\activites\3_medium\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
                                 <div class="texte_carte">
                                     <h3>Notre-Dame-de-la-Garde</h3>
                                 </div>
